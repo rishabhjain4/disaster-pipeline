@@ -18,7 +18,12 @@ Dataset used: disaster data from [Figure Eight](https://www.figure-eight.com/)
 3. Go to http://0.0.0.0:3001/
 
 ### Important Files:
-- `data/process_data.py`: The ETL pipeline used to process data in preparation.
-- `models/train_classifier.py`: The Machine Learning pipeline used to fit, tune, evaluate, and export the model to a Python pickle.
-- `app/templates/*.html`: HTML templates for the web app.
-- `run.py`: Start the Python server for the web app and prepare visualizations.
+1. data/
+    process_data.py : The ETL pipeline used to process data in preparation.
+    messages.db : SQLite Database
+2. models/
+    train_classifier.py : The Machine Learning pipeline used to fit, tune, evaluate, and export the model to a Python pickle.
+    model.pkl : Pickle file of the trained model.
+3. app/
+    templates/*.html : HTML templates for the web app.
+    run.py : Start the Python server for the web app and prepare visualizations.
