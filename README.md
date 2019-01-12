@@ -2,6 +2,8 @@
 
 In this Project, data set containing real messages which were sent during disaster events is used to build a model to categorize events so that one can send the messages to an appropriate disaster relief agency.
 
+Dataset used: disaster data from [Figure Eight](https://www.figure-eight.com/)
+
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
@@ -17,6 +19,6 @@ In this Project, data set containing real messages which were sent during disast
 
 ### Important Files:
 - `data/process_data.py`: The ETL pipeline used to process data in preparation.
-- `models/train_classifier.py`: The Machine Learning pipeline used to fit, tune, evaluate, and export the model to a Python pickle (pickle is not uploaded to the repo due to size constraints.).
+- `models/train_classifier.py`: The Machine Learning pipeline used to fit, tune, evaluate, and export the model to a Python pickle.
 - `app/templates/*.html`: HTML templates for the web app.
 - `run.py`: Start the Python server for the web app and prepare visualizations.
